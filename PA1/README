@@ -1,0 +1,12 @@
+File Submitted:
+
+1.List.java:  This is the List ADT file and code. This is one of the code we need to write for this assignment.
+
+2.ListClient.java:    This file essentially act as a test for the List ADT.
+
+3.Lex.java: This is the main for this assignment. It sort the word inside a text file into lexicographic
+  order and output it into a text file.
+
+4.Makefile: This tells the command prompt what to do I believe.
+
+5.README: Notes for the grader and professor.

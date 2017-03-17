@@ -1,0 +1,30 @@
+Sparse.java
+	Usage: Sparse [in] [out]
+	Main client for the Matrix ADT, takes two filenames as parameters,
+	the first being the input file and the second being the output file name.
+	The file is read into two n by n matrices called A and B, where only the
+	non-zero values are stored. The following operations are called on the matrices:
+		(1.5)A, A+B, A+A, B-A, A-A, transpose(A), AB, B^2
+	The result matrices and the number of non-zero entries are printed and stored
+	in the specified output file.
+Matrix.java
+	Abstract data type implemented as an array of Lists. Contains a private
+	Entry class that represents the column position and the double value of
+	a matrix, as well as the constructor, access functions, manipulation functions,
+	and other functions that define the Matrix object.
+List.java
+	Abstract data type implemented as a doubly linked list
+	that contains the Node class, constructors, access functions,
+	manipulation functions, and other functions that defines the
+	List object
+	The data stored in a Node is of generic Object type
+MatrixTest.java
+	Test client for Matrix operations
+ListTest.java
+	Test client for List operations
+Makefile
+	Compiles the Sparse, Matrix, and List files listed above and creates an executable
+	Sparse.jar file. Use 'make clean' to remove *.class files
+	and Sparse.jar from the directory
+README
+	Table of contents with descriptions
